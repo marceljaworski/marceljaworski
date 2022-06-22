@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+
+}
+:root {
+    --primary:#F2F2F2;
+    --secundary:#737373;
+    --dark: #323232;
+    --blau: #1E6AE0;
+    --red:#db0000;
+    --yellow:#FFD714;
+    --green: #3E9C0B;
+    --black: #0D0D0D;
+}
+.menu {
+    width: 100%;
+    background-color:var(--black); 
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    list-style: none;
+}
+.menu__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:var(--secundary);
+}
+.menu__item--name{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: var(--primary);
+    text-transform: capitalize;
+}
+.menu__item--name:hover{
+    
+}
+.menu__item--list:hover {
+    color:var(--primary)
+}
+.menu__item--list-programer:hover{
+    color: var(--blau);
+}
+.menu__item--list-fotograf:hover{
+    color: var(--yellow);
+}
+.menu__item--list-jongleur:hover{
+    color: var(--red);
+}
+.menu__item--icon {
+    font-size: 1.2rem;
+}
+.menu__item--icon:hover {
+    color:var(--primary)
+}
+@media screen and (max-width: 768px) { 
+    .menu__list li:not(i) { 
+        display:none;
+    } 
+   
+}
+.fa-bars {
+    visibility: visible;
+    color: var(--secundary)
+}
+
+@media screen and (min-width: 768px) {   
+    .fa-bars {
+        visibility: hidden;
+    }
+}
+
+.main-about{
+    min-height: 100%;
+    background-color: var(--dark);
+    color: var(--primary);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-about__text-container{
+    width: 60%;
+    padding: 4rem 6rem;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #363636, #2d2d2d);
+    box-shadow:  20px 20px 60px #2b2b2b,
+             -20px -20px 60px #3a3a3a;
+}
+.main-about__text{
+    letter-spacing: 0.1rem;
+
+}
+.main-about__title{
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
+    color: var(--secundary);
+}
