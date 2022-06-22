@@ -1,0 +1,68 @@
+.menu {
+    width: 100%;
+    background-color:var(--black); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    list-style: none;
+}
+.menu__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:var(--secundary);
+}
+.menu__item--name{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: var(--primary);
+    text-transform: capitalize;
+}
+.menu__item--burger{
+    color: var(--primary);
+}
+.menu__item--name:hover, .menu__item--burger:hover {
+    color:var(--secundary)
+}
+.menu__item--list:hover {
+    color:var(--primary)
+}
+.menu__item--list-programer:hover{
+    color: var(--blau);
+}
+.menu__item--list-fotograf:hover{
+    color: var(--green);
+}
+.menu__item--list-jongleur:hover{
+    color: var(--red);
+}
+.menu__item--icon {
+    font-size: 1.2rem;
+}
+.menu__item--icon:hover {
+    color:var(--primary)
+}
+@media screen and (max-width: 374px) { 
+    .menu__item--icon{ 
+        display:none;
+    } 
+   
+}
+@media screen and (max-width: 768px) { 
+    .menu__item--list-programer, .menu__item--list-fotograf, .menu__item--list-jongleur  { 
+        display:none;
+    } 
+   
+}
+
+
+@media screen and (min-width: 768px) {   
+    .menu__item--burger {
+        visibility: hidden;
+    }
+}
