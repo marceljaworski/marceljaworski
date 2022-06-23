@@ -50,3 +50,13 @@ html, body{
     letter-spacing: 0.2rem;
     color: var(--secundary);
 }
+.text-red {
+    color: var(--red);}
+footer{
+    width: 100%;
+    bottom: 0;
+    color: var(--black);
+    background-color: var(--dark);
+    text-align: right;
+    padding: 0.5rem;
+}
