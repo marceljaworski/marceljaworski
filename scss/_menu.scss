@@ -47,6 +47,9 @@
 .menu__item--icon:hover {
     color:var(--primary)
 }
+dl, ol, ul{
+    margin-bottom: 0;
+}
 @media screen and (max-width: 374px) { 
     .menu__item--icon{ 
         display:none;
