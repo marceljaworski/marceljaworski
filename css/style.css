@@ -22,6 +22,14 @@ html, body {
   --black: #0D0D0D;
 }
 
+.main {
+  background-color: var(--dark);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .main-about {
   min-height: 100%;
   background-color: var(--dark);
@@ -170,7 +178,7 @@ dl, ol, ul {
   background-color: var(--dark);
   color: var(--primary);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -186,7 +194,7 @@ dl, ol, ul {
 
 .jongleur-image__container {
   max-width: 250px;
-  margin: auto;
+  margin: 1rem;
   /*background-color: var(--primary);*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -197,20 +205,24 @@ dl, ol, ul {
   object-fit: cover;
 }
 
-.jongleur-image__text {
-  padding: 10px;
-}
+/*.jongleur-image__text{
+    padding: 10px;
 
+}*/
 .main-programer {
   min-height: 100%;
   background-color: var(--dark);
   color: var(--primary);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .main-programer {
+    flex-direction: column;
+  }
+}
 .programer-icon__container {
   display: flex;
   justify-content: center;

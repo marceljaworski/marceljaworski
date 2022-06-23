@@ -20,7 +20,13 @@ html, body{
     --green: #3E9C0B;
     --black: #0D0D0D;
 }
-
+.main{
+    background-color: var(--dark);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 .main-about{
     min-height: 100%;
     background-color: var(--dark);
