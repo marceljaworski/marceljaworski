@@ -21,14 +21,13 @@ html, body{
     --black: #0D0D0D;
 }
 .main{
+    height: 100vh;
+    width: 100vw;
     background-color: var(--dark);
-    height: 100%;
-    width: 100%;
-    
+    color: var(--primary);
 }
 
 .main-about{
-    color: var(--primary);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +48,14 @@ html, body{
     border-radius: 50px;
     border-radius: 50px;
     background: linear-gradient(145deg, #363636, #2d2d2d);
-    box-shadow:  20px 20px 60px #2b2b2b,
-             -20px -20px 60px #3a3a3a;
+    box-shadow:  2px 2px 6px #2b2b2b,
+             -2px -2px 6px #3a3a3a;
 }
 .main-about__text{
     letter-spacing: 0.1rem;
-
+    font-size: 1rem;
+    
+    
 }
 .main-about__title{
     margin-bottom: 2rem;
