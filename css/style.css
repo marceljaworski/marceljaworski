@@ -26,8 +26,17 @@ html, body {
   background-color: var(--dark);
   height: 100%;
   width: 100%;
+}
+
+.main-fotograf {
+  width: 100%;
+  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+.main-fotograf .carousel-container {
+  margin-top: 1.5rem;
+  max-width: 90%;
 }
 
 .main-about {
@@ -49,6 +58,7 @@ html, body {
   font-size: 1.2rem;
   padding: 20px;
   margin: 1rem;
+  z-index: 0;
   line-height: 1.5em;
   border-radius: 50px;
   border-radius: 50px;
@@ -100,6 +110,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  z-index: 1;
 }
 
 .menu__list {
@@ -173,6 +184,34 @@ dl, ol, ul {
     visibility: hidden;
   }
 }
+.dropdown {
+  display: inline-block;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: var(--dark);
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown .dropdown-content a {
+  color: var(--secundary);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .main-jongleur {
   min-height: 100%;
   background-color: var(--dark);
@@ -236,6 +275,17 @@ dl, ol, ul {
   font-size: 6rem;
   margin: 1rem;
   color: var(--secundary);
+}
+
+.main-fotograf {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-fotograf .carousel-container {
+  margin-top: 1.5rem;
+  max-width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */

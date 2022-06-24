@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    z-index: 1;
 }
 .menu__list {
     display: flex;
@@ -60,12 +61,34 @@ dl, ol, ul{
     .menu__item--list-programer, .menu__item--list-fotograf, .menu__item--list-jongleur  { 
         display:none;
     } 
-   
 }
-
-
 @media screen and (min-width: 768px) {   
     .menu__item--burger {
         visibility: hidden;
     }
 }
+.dropdown{
+    display: inline-block;
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: var(--dark);
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        a{
+            color: var(--secundary);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        a:hover {background-color: #f1f1f1;}
+    }
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
