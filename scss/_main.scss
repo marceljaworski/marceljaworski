@@ -23,6 +23,7 @@ html, body{
 .main{
     height: 100vh;
     width: 100vw;
+    padding-top: 3rem;    
     background-color: var(--dark);
     color: var(--primary);
 }
@@ -79,7 +80,7 @@ html, body{
 footer{
     width: 100%;
     bottom: 0;
-    color: var(--black);
+    color: var(--secundary);
     background-color: var(--dark);
     text-align: right;
     padding: 0.5rem;

@@ -1,6 +1,7 @@
 .menu {
     width: 100%;
     background-color:var(--black); 
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,11 +11,11 @@
 .menu__list {
     display: flex;
     justify-content: space-around;
-    gap: 1.5rem;
     list-style-type: none;
 }
 .menu__item {
     text-decoration: none;
+    margin: 1rem;
     text-transform: uppercase;
     color:var(--secundary);
 }
@@ -51,20 +52,26 @@
 dl, ol, ul{
     margin-bottom: 0;
 }
-@media screen and (max-width: 374px) { 
-    .menu__item--icon{ 
+@media screen and (max-width: 767px) { 
+    .menu__item--icon { 
         display:none;
     } 
-   
+     
 }
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 767px) { 
+    .menu__item--mail { 
+        display: contents;
+    } 
+     
+}
+@media screen and (max-width: 767px) { 
     .menu__item--list-programer, .menu__item--list-fotograf, .menu__item--list-jongleur  { 
         display:none;
     } 
 }
 @media screen and (min-width: 768px) {   
     .menu__item--burger {
-        visibility: hidden;
+        display: none;
     }
 }
 .dropdown{
@@ -86,9 +93,34 @@ dl, ol, ul{
             text-align: left;
         }
         a:hover {background-color: #f1f1f1;}
-    }
-    
+    }  
 }
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
+.footer-container {   
+    width: 100%;
+    background-color: var(--black);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__list{
+    color: var(--primary);
+    display: flex;
+    list-style-type: none;
+} 
+@media screen and (min-width: 768px) { 
+    .menu__item--icon-footer{ 
+        display:none;
+    } 
+    .footer-container {  
+        display:none; 
+    
+    }
+}
+
+.copyright {
+    color: var(--primary);
+}
