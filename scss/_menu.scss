@@ -52,13 +52,13 @@
 dl, ol, ul{
     margin-bottom: 0;
 }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 875px) { 
     .menu__item--icon { 
         display:none;
     } 
      
 }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 876px) { 
     .menu__item--mail { 
         display: contents;
     } 
@@ -111,7 +111,7 @@ dl, ol, ul{
     display: flex;
     list-style-type: none;
 } 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 876px) { 
     .menu__item--icon-footer{ 
         display:none;
     } 
