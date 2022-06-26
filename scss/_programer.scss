@@ -1,15 +1,11 @@
 .main-programer{
     color: var(--primary);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 768px) { 
-    .main-programer{ 
-        flex-direction: column;
-    } 
-   
-}
+
 .programer-icon__container{
     display: flex;
     justify-content: center;
@@ -26,3 +22,8 @@
       
     }
 }
+/*@media screen and (max-width: 768px) { 
+    .programer-icon__container{ 
+        flex-direction: column;
+    }  
+}*/
