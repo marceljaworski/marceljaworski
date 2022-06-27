@@ -1,10 +1,17 @@
 .main-fotograf {
     width: 100%;
-    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
     .carousel-container{
-        margin-top: 1.5rem;
-        max-width: 90%;
+        height: 100px;
+        width: clamp(200px, 50%, 800px);
+       
+    }
+    .video-container {
+        height: 100px;
+        width: clamp(200px, 50%, 800px);
+
     }
 }

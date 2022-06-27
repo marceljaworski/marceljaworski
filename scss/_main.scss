@@ -14,14 +14,16 @@ html, body{
     --primary:#F2F2F2;
     --secundary:#737373;
     --dark: #323232;
-    --blau: #1E6AE0;
-    --red:#db0000;
+    --blue: rgb(26, 26, 177);
+    --red: #db0000;
     --yellow:#FFD714;
     --green: #3E9C0B;
     --black: #0D0D0D;
+    --class: LightSkyblue;
+    --wert: chocolate;
 }
 .main{
-    height: 100vh;
+    min-height: 100%;
     width: 100vw;
     padding-top: 3rem;    
     background-color: var(--dark);

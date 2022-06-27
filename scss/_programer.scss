@@ -19,11 +19,47 @@
         font-size: 6rem;
         margin: 1rem;
         color: var(--secundary);
-      
     }
 }
-/*@media screen and (max-width: 768px) { 
-    .programer-icon__container{ 
-        flex-direction: column;
-    }  
-}*/
+.main-about__text-container{
+    font-size: 0.8rem;
+
+}
+
+.main-about__text--developer{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) { 
+    .main-programer{
+        justify-content: flex-start;
+        padding-top: 6rem;
+    }
+    .programer-icon__container{
+        i{
+            font-size: 3rem;
+            margin: 0.7rem;
+            color: var(--secundary);
+        }
+    }
+    .main-about__text-container{
+        font-size: 0.8rem;
+
+    }
+    
+    .main-about__text--developer{
+        font-size: 1.2rem;
+    }
+}
+.element{
+    color: var(--blue);
+}
+.class{
+    color: var(--class);
+}
+.wert{
+    color: var(--wert);
+}
+.commentar{
+    color: var(--green);
+}
