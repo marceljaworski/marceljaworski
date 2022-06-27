@@ -1,17 +1,32 @@
 .main-fotograf {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    min-height: 100%;
+    padding-inline: 2rem;
     align-items: center;
     
+    
     .carousel-container{
-        height: 100px;
-        width: clamp(200px, 50%, 800px);
+        width: 100%;
+        /*width: clamp(200px, 100%, 800px);*/
        
     }
+    
     .video-container {
-        height: 100px;
-        width: clamp(200px, 50%, 800px);
+        position: relative;
+        overflow: hidden;
+        height: 0;
+        padding-bottom: 56.25%;
+        height: auto;
+        width: 100%;
+
+        /*width: clamp(200px, 100%, 800px);*/
+        iframe{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
     }
 }
