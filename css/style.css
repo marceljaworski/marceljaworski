@@ -15,19 +15,20 @@ html, body {
   --primary:#F2F2F2;
   --secundary:#737373;
   --dark: #323232;
-  --blue: rgb(44, 44, 176);
+  --blue: blue;
   --red: #db0000;
   --yellow:#FFD714;
   --green: #3E9C0B;
   --black: #0D0D0D;
   --class: LightSkyblue;
   --wert: chocolate;
+  --background: #262626;
+  --grey: #404040;
 }
 
 .main {
   min-height: 100%;
-  width: 100vw;
-  padding-top: 3rem;
+  width: 100%;
   background-color: var(--dark);
   color: var(--primary);
 }
@@ -40,39 +41,47 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .main-about {
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
 }
 .main-about__text-container {
-  max-width: 450px;
+  max-width: 850px;
   font-size: 1.2rem;
   padding: 20px;
+  display: flex;
+  gap: 0.8rem;
   margin: 1rem;
   z-index: 0;
   line-height: 1.5em;
-  border-radius: 50px;
-  border-radius: 50px;
-  background: linear-gradient(145deg, #363636, #2d2d2d);
+  background: linear-gradient(145deg, #262626, #404040);
   box-shadow: 2px 2px 6px #2b2b2b, -2px -2px 6px #3a3a3a;
 }
 
-.main-about__text {
-  letter-spacing: 0.1rem;
-  font-size: 1rem;
+@media screen and (max-width: 768px) {
+  .main-about__text-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
 .main-about__title {
+  text-align: center;
   margin-bottom: 2rem;
   letter-spacing: 0.2rem;
   color: var(--secundary);
 }
 
+.main-about__text {
+  max-width: 450px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+
 .about-image__container {
   max-width: 250px;
-  margin: 1rem;
   /*background-color: var(--primary);*/
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
 }
 
 .about-image__item {
@@ -241,6 +250,10 @@ dl, ol, ul {
   align-items: center;
 }
 
+.text-red {
+  color: var(--red);
+}
+
 .main-jongleur__hero-container {
   max-width: 100%;
   display: block;
@@ -326,20 +339,42 @@ dl, ol, ul {
 }
 
 .main-programer {
-  color: var(--primary);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 1rem;
+}
+
+.main-programer__text-container {
+  padding: 0.5rem 1rem 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.5em;
+  background: linear-gradient(145deg, #262626, #404040);
+  box-shadow: 20px 20px 60px #2b2b2b, -20px -20px 60px #3a3a3a;
+}
+
+.main-programer__title {
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+  color: var(--secundary);
+}
+
+.main-programer__text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+
+.main-programer__text--escaped {
+  width: 100%;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  font-size: 0.5rem;
 }
 
 .programer-icon__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
-  border-radius: 50px;
-  background: linear-gradient(145deg, #363636, #2d2d2d);
+  background: linear-gradient(145deg, #262626, #404040);
   box-shadow: 20px 20px 60px #2b2b2b, -20px -20px 60px #3a3a3a;
 }
 .programer-icon__container i {
@@ -348,28 +383,19 @@ dl, ol, ul {
   color: var(--secundary);
 }
 
-.main-about__text-container {
-  font-size: 0.8rem;
-}
-
-.main-about__text--developer {
-  font-size: 1.2rem;
-}
-
 @media screen and (max-width: 768px) {
   .main-programer {
     justify-content: flex-start;
-    padding-top: 6rem;
   }
   .programer-icon__container i {
     font-size: 3rem;
     margin: 0.7rem;
     color: var(--secundary);
   }
-  .main-about__text-container {
+  .main-programer__text-container {
     font-size: 0.8rem;
   }
-  .main-about__text--developer {
+  .main-programer__text {
     font-size: 1.2rem;
   }
 }
@@ -392,7 +418,7 @@ dl, ol, ul {
 .main-fotograf {
   width: 100%;
   min-height: 100%;
-  padding-inline: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   align-items: center;
 }
 .main-fotograf .carousel-container {
@@ -403,6 +429,7 @@ dl, ol, ul {
   position: relative;
   overflow: hidden;
   height: 0;
+  margin-top: 1rem;
   padding-bottom: 56.25%;
   height: auto;
   width: 100%;
@@ -414,6 +441,12 @@ dl, ol, ul {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .main-fotograf {
+    padding: 2rem 16rem 4rem 16rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

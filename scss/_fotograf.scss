@@ -1,9 +1,8 @@
 .main-fotograf {
     width: 100%;
     min-height: 100%;
-    padding-inline: 2rem;
+    padding: 2rem 2rem 4rem 2rem;
     align-items: center;
-    
     
     .carousel-container{
         width: 100%;
@@ -15,6 +14,7 @@
         position: relative;
         overflow: hidden;
         height: 0;
+        margin-top: 1rem;
         padding-bottom: 56.25%;
         height: auto;
         width: 100%;
@@ -27,6 +27,10 @@
             top: 0;
             left: 0;
         }
-
+    }
+}
+@media screen and (min-width: 992px) { 
+    .main-fotograf {
+        padding: 2rem 16rem 4rem 16rem;  
     }
 }
