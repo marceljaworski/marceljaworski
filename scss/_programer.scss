@@ -1,13 +1,21 @@
 .main-programer{
-    padding-top: 1rem;
+   
 }
 .main-programer__text-container{
     padding: 0.5rem 1rem 0.5rem;
-    margin-bottom: 1rem;
+    
     line-height: 1.5em;
     background: linear-gradient(145deg, #262626, #404040);
     box-shadow:  20px 20px 60px #2b2b2b,
              -20px -20px 60px #3a3a3a;
+}
+.main-programer__text-container--escaped{
+    padding-left: 0.5rem;
+    line-height: 1.5em;
+    overflow: hidden;
+    background: linear-gradient(145deg, #262626, #404040);
+    box-shadow:  2px 2px 6px #2b2b2b,
+             -2px -2px 6px #3a3a3a;
 }
 .main-programer__title{
     text-align: center;
@@ -18,10 +26,9 @@
 .main-programer__text{
     text-align: center;
     letter-spacing: 0.1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .main-programer__text--escaped{
-    width: 100%;
     text-align: left;
     letter-spacing: 0.1rem;
     font-size: 0.5rem;
@@ -60,9 +67,6 @@
 
     }
     
-    .main-programer__text{
-        font-size: 1.2rem;
-    }
 }
 .element{
     color: var(--blue);

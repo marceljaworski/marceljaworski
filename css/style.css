@@ -277,23 +277,32 @@ dl, ol, ul {
   max-width: 450px;
   font-size: 1.2rem;
   padding: 20px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
 }
 .main-jongleur__text-container .main-jongleur__title {
   letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
   color: var(--secundary);
+  text-align: center;
 }
 .main-jongleur__text-container .main-about__text--slogan {
   font-size: 1.5rem;
 }
 .main-jongleur__text-container .main-jongleur__text {
+  max-width: 450px;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
   color: var(--secundary);
+}
+.main-jongleur__text-container .main-jongleur__text--center {
+  text-align: center;
 }
 
 .jongleur-image__container {
   width: 250px;
   position: relative;
-  margin: 0.2rem;
+  margin: 1rem 0;
   aspect-ratio: 480/640;
   background: rgb(131, 58, 180);
   background: linear-gradient(36deg, rgb(252, 170, 69) 0%, rgb(253, 29, 29) 50%, rgb(131, 58, 180) 100%);
@@ -338,16 +347,19 @@ dl, ol, ul {
   text-align: center;
 }
 
-.main-programer {
-  padding-top: 1rem;
-}
-
 .main-programer__text-container {
   padding: 0.5rem 1rem 0.5rem;
-  margin-bottom: 1rem;
   line-height: 1.5em;
   background: linear-gradient(145deg, #262626, #404040);
   box-shadow: 20px 20px 60px #2b2b2b, -20px -20px 60px #3a3a3a;
+}
+
+.main-programer__text-container--escaped {
+  padding-left: 0.5rem;
+  line-height: 1.5em;
+  overflow: hidden;
+  background: linear-gradient(145deg, #262626, #404040);
+  box-shadow: 2px 2px 6px #2b2b2b, -2px -2px 6px #3a3a3a;
 }
 
 .main-programer__title {
@@ -360,11 +372,10 @@ dl, ol, ul {
 .main-programer__text {
   text-align: center;
   letter-spacing: 0.1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .main-programer__text--escaped {
-  width: 100%;
   text-align: left;
   letter-spacing: 0.1rem;
   font-size: 0.5rem;
@@ -394,9 +405,6 @@ dl, ol, ul {
   }
   .main-programer__text-container {
     font-size: 0.8rem;
-  }
-  .main-programer__text {
-    font-size: 1.2rem;
   }
 }
 .element {

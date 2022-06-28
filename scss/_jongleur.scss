@@ -1,11 +1,9 @@
 
 .main-jongleur{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .text-red {
     color: var(--red);
 }
@@ -31,26 +29,32 @@
     max-width: 450px;
     font-size: 1.2rem;
     padding: 20px;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     .main-jongleur__title{
         letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
         color: var(--secundary);
+        text-align: center;
     }
     .main-about__text--slogan{
         font-size: 1.5rem;
     }
     .main-jongleur__text{
+        max-width: 450px;
+        text-align: left;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
         color: var(--secundary);
     }
+    .main-jongleur__text--center{
+        text-align: center;
+    }
 }
-
-
-
 
 .jongleur-image__container{
     width: 250px;
     position: relative;
-    margin: 0.2rem;
+    margin: 1rem 0;
     aspect-ratio: 480/640;
     background: rgb(131,58,180);
     background: linear-gradient( 36deg,rgba(252,170,69,1) 0%, rgba(253,29,29,1) 50%,  rgba(131,58,180,1) 100%);
