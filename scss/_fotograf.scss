@@ -7,14 +7,11 @@
     .carousel-container{
         width: 100%;
         /*width: clamp(200px, 100%, 800px);*/
-       
     }
-    
     .video-container {
         position: relative;
         overflow: hidden;
         height: 0;
-        margin-top: 1rem;
         padding-bottom: 56.25%;
         height: auto;
         width: 100%;
@@ -32,5 +29,17 @@
 @media screen and (min-width: 992px) { 
     .main-fotograf {
         padding: 2rem 16rem 4rem 16rem;  
+    }
+}
+.main-fotograf__text-container{
+    line-height: 1.5em;
+    overflow: hidden;
+    background: linear-gradient(145deg, #262626, #404040);
+    box-shadow:  2px 2px 6px #2b2b2b,
+             -2px -2px 6px #3a3a3a;
+    .main-fotograf__title{
+        text-align: center;
+        letter-spacing: 0.2rem;
+        color: var(--secundary);
     }
 }
