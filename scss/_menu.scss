@@ -19,7 +19,7 @@
     text-transform: uppercase;
     color:var(--secundary);
 }
-.menu__item--name{
+.menu__item--name, .menu__item--mail{
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
     color: var(--primary);
@@ -28,9 +28,7 @@
 .menu__item--burger{
     color: var(--primary);
 }
-.menu__item--name:hover, .menu__item--burger:hover {
-    color:var(--secundary)
-}
+
 .menu__item--list:hover {
     color:var(--primary)
 }
@@ -48,6 +46,9 @@
 }
 .menu__item--icon:hover {
     color:var(--primary)
+}
+.menu__item--name:hover, .menu__item--mail:hover, .menu__item--burger:hover {
+    color:var(--secundary)
 }
 dl, ol, ul{
     margin-bottom: 0;

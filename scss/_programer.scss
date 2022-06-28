@@ -1,8 +1,6 @@
-.main-programer{
-   
-}
+
 .main-programer__text-container{
-    padding: 0.5rem 1rem 0.5rem;
+    padding: 1rem;
     
     line-height: 1.5em;
     background: linear-gradient(145deg, #262626, #404040);
@@ -31,7 +29,8 @@
 .main-programer__text--escaped{
     text-align: left;
     letter-spacing: 0.1rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
+    color: var(--secundary);
 }
 
 .programer-icon__container{
@@ -47,9 +46,6 @@
         color: var(--secundary);
     }
 }
-
-
-
 @media screen and (max-width: 768px) { 
     .main-programer{
         justify-content: flex-start;
@@ -64,7 +60,10 @@
     }
     .main-programer__text-container{
         font-size: 0.8rem;
-
+    }
+    .main-programer__text--escaped{
+        font-size: 0.8rem;
+        
     }
     
 }
