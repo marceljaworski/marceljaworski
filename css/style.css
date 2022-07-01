@@ -138,12 +138,24 @@ footer {
   color: var(--primary);
 }
 
+.page-pageProgramer .menu__item--list-programer {
+  color: var(--blue);
+}
+
 .menu__item--list-programer:hover {
   color: var(--blue);
 }
 
+.page-pageFotograf .menu__item--list-fotograf {
+  color: var(--green);
+}
+
 .menu__item--list-fotograf:hover {
   color: var(--green);
+}
+
+.page-pageJongleur .menu__item--list-jongleur {
+  color: var(--red);
 }
 
 .menu__item--list-jongleur:hover {
