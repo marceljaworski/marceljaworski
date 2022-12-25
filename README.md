@@ -1,8 +1,11 @@
-:wave: Hi!
-:octocat: marceljaworski
+Hi! :wave:
 
-Creative professional with 5 years experience in photography and video editing. Recent university graduate seeking to build a career in IT as a web developer.
+I am  marceljaworski :bust_in_silhouette:
 
-Hobby :bicyclist:
-:de: I live in Germany 
-:globe_with_meridians: I speak Deutsch, Spanisch.
+Creative professional with 5 years experience in photography and video editing. :movie_camera:
+Recent university graduate seeking to build a career in IT as a web developer. :computer:
+
+Hobbys :bicyclist: :juggling_person: 
+
+I live in Germany :de: 
+
