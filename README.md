@@ -1,11 +1,13 @@
-Hi! :wave:
+Hi! :wave: 
 
-I am  marceljaworski :bust_in_silhouette:
+I am :bust_in_silhouette: marceljaworski 
 
-Creative professional with 5 years experience in photography and video editing. :movie_camera:
-Recent university graduate seeking to build a career in IT as a web developer. :computer:
+Creative professional with 5 years experience :movie_camera: in photography and video editing. 
 
-Hobbys :bicyclist: :juggling_person: 
+Recent university graduate seeking to build a career in IT as a web developer. :computer: < />
 
-I live in Germany :de: 
+Hobbys:
+:bicyclist: 
+:juggling_person: 
+
 
