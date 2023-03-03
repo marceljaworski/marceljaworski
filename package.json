@@ -2,7 +2,7 @@
   "name": "marceljaworski",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "sass -w scss/style.scss css/style.css"
   },
