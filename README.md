@@ -1,4 +1,4 @@
-Hallo World! :globe_with_meridians: Hallo Server! :zap:
+Hallo World! :earth_africa: Hallo Server! :zap:
 
 I am :bust_in_silhouette: Marcel Jaworski 
 
@@ -67,7 +67,3 @@ I am :bust_in_silhouette: Marcel Jaworski
 |     2|     CSS       |
 |     3|     HTML      |
 |     4|    MongoDB    |
-
-
-
-
