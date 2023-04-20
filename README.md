@@ -2,12 +2,11 @@ Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel
 
 ## About me
 
->Creative professional with 5 years experience :movie_camera: in photography and video editing. 
->
->:scroll: Recent university graduate seeking to build a career in IT as a web developer. :computer: < />
+> A creative professional with 5 years of experience in photography and video editing as well as advanced training in full stack development.
 
-### Skills 
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=marceljaworski&layout=compact)
 
+### Skills
 > #### ***Frontend*** Development
 >
 > <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">
@@ -56,12 +55,4 @@ Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel
 > <img align="center" src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="Jest" height="40" width="40" />
 > </a>
 
-<details>
-  <summary>My top Programming Languages</summary>
 
-| Rank |   Languages   |
-|-----:|---------------|
-|     1|  Javascript   |
-|     2|     CSS       |
-|     3|     HTML      |
-|     4|    MongoDB    |
