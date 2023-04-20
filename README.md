@@ -10,8 +10,8 @@ I am :bust_in_silhouette: Marcel Jaworski
 
 ### Skills 
 
-- ***Frontend*** Development
-
+> #### ***Frontend*** Development
+>
 > <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"  height="40" width="40" />
 > </a>
@@ -29,10 +29,10 @@ I am :bust_in_silhouette: Marcel Jaworski
 > </a>
 > <a href="https://sass-lang.com" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="Sass" height="40" width="40" />
-> </a><br>
-
-- ***Backend*** Development
-
+> </a>
+> 
+> #### ***Backend*** Development
+>
 > <a href="https://nodejs.org" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="40" width="40" />
 > </a>
@@ -42,18 +42,18 @@ I am :bust_in_silhouette: Marcel Jaworski
 > <a href="https://www.nginx.com" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" height="40" width="40" />
 > </a>
-
-- ***Database***
-
+>
+> #### ***Database***
+>
 > <a href="https://www.mongodb.com/" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" height="40" width="40" />
 > </a>
 > <a href="https://www.mysql.com/" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" height="40" width="40" />
 > </a>
-
-- ***Testing***
-
+>
+> #### ***Testing***
+>
 > <a href="https://jestjs.io" target="blank">
 > <img align="center" src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="Jest" height="40" width="40" />
 > </a>
