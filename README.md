@@ -34,22 +34,22 @@ I am :bust_in_silhouette: Marcel Jaworski
 > #### ***Backend*** Development
 >
 > <a href="https://nodejs.org" target="blank">
-> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="40" width="40" />
+> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="60" width="60" />
 > </a>
 > <a href="https://expressjs.com" target="blank">
-> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" height="40" width="40" />
+> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" height="60" width="60" />
 > </a>
 > <a href="https://www.nginx.com" target="blank">
-> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" height="40" width="40" />
+> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" height="60" width="60" />
 > </a>
->
+> 
 > #### ***Database***
->
+> 
 > <a href="https://www.mongodb.com/" target="blank">
-> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" height="40" width="40" />
+> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" height="60" width="60" />
 > </a>
 > <a href="https://www.mysql.com/" target="blank">
-> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" height="40" width="40" />
+> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" height="70" width="70" />
 > </a>
 >
 > #### ***Testing***
@@ -59,7 +59,7 @@ I am :bust_in_silhouette: Marcel Jaworski
 > </a>
 
 <details>
-  <summary>My top languages</summary>
+  <summary>My top Programming Languages</summary>
 
 | Rank |   Languages   |
 |-----:|---------------|
@@ -68,10 +68,6 @@ I am :bust_in_silhouette: Marcel Jaworski
 |     3|     HTML      |
 |     4|    MongoDB    |
 
-<details/>
 
-Hobbys:
-:bicyclist: 
-:juggling_person: 
 
 
