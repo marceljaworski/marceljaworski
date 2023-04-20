@@ -1,6 +1,4 @@
-Hallo World! :earth_africa: Hallo Server! :zap:
-
-I am :bust_in_silhouette: Marcel Jaworski 
+Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel Jaworski 
 
 ## About me
 
