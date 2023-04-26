@@ -1,6 +1,6 @@
-Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel Jaworski 
-
 ## About me
+
+Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel Jaworski 
 
 > A creative professional with 5 years of experience in photography and video editing as well as advanced training in full stack development.
 
