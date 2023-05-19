@@ -37,7 +37,6 @@ html, body {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,7 +102,6 @@ footer {
 .menu {
   width: 100%;
   background-color: var(--black);
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -201,6 +199,7 @@ dl, ol, ul {
 }
 .dropdown {
   display: inline-block;
+  z-index: 300;
 }
 .dropdown .dropdown-content {
   display: none;
@@ -392,10 +391,18 @@ dl, ol, ul {
   color: var(--secundary);
 }
 
+.programer-icon__main-container {
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
 .programer-icon__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  width: 150px;
+  height: 150px;
   background: linear-gradient(145deg, #262626, #404040);
   box-shadow: 20px 20px 60px #2b2b2b, -20px -20px 60px #3a3a3a;
 }
@@ -409,9 +416,13 @@ dl, ol, ul {
   .main-programer {
     justify-content: flex-start;
   }
+  .programer-icon__container {
+    width: 4rem;
+    height: 3.5rem;
+  }
   .programer-icon__container i {
-    font-size: 3rem;
-    margin: 0.7rem;
+    font-size: 2.5rem;
+    margin: 0.5rem;
     color: var(--secundary);
   }
   .main-programer__text-container {

@@ -1,7 +1,6 @@
 .menu {
     width: 100%;
     background-color:var(--black); 
-    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,6 +85,7 @@ dl, ol, ul{
 }
 .dropdown{
     display: inline-block;
+    z-index: 300;
     .dropdown-content{
         display: none;
         position: absolute;
