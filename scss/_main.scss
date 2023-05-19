@@ -32,10 +32,12 @@ html, body{
 }
 
 .main-about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 }
+
 @media screen and (max-width: 768px) { 
     .main-about{
         display: flex;
@@ -44,6 +46,52 @@ html, body{
         
     }
    
+}
+
+.main__scroll-animation {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.logos {
+    display: flex;
+    gap: .3rem;
+}
+// .logo:first-child {
+//     transition-delay: 150ms;
+// }
+
+.logo:nth-child(2) {
+    transition-delay: 300ms;
+}
+.logo:nth-child(3) {
+    transition-delay: 600ms;
+}
+.logo:nth-child(4) {
+    transition-delay: 900ms;
+}
+.logo:nth-child(5) {
+    transition-delay: 1200ms;
 }
 
 .main-about__text-container{
