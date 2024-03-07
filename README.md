@@ -57,6 +57,3 @@ Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel
 > <a href="https://jestjs.io" target="blank">
 > <img align="center" src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="Jest" height="40" width="40" />
 > </a>
-
-<details><summary>MERN Stack Web Developer</summary> Over the past year I have been learning the basics of web development and the MERN stack, which consists of MongoDB, Express.js, React and Node.js. I have gained knowledge in building responsive web applications, handling database operations, and building RESTful APIs. I have also developed skills in front-end development using Visual Studio Code, Vanilla JS, Vite, Sass, Bootstrap. In our final year project, "Elite Events Planner", I also learned how to use figma, git and github to collaborate with my teammates, and how to deploy web applications using cloud services such as Vercel, Auth0 and Docker. Overall, this course has equipped me with the skills necessary to develop full-stack web applications using the MERN stack and to quickly learn other tools.
-</details>
