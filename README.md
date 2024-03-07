@@ -1,4 +1,4 @@
-## About me
+a## About me
 
 Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel Jaworski 
 
@@ -38,6 +38,9 @@ Hallo World! :earth_africa: Hallo Server! :zap: I am :bust_in_silhouette: Marcel
 > </a>
 > <a href="https://www.nginx.com" target="blank">
 > <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" height="60" width="60" />
+> </a>
+<a href="https://go.dev/" target="blank">
+> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="Golang" height="60" width="60" />
 > </a>
 
 - #### ***Database***
